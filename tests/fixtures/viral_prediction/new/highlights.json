@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "video_id": "video-01",
+  "video_name": "01",
+  "task_id": "task-highlight-01",
+  "parent_task_id": "task-generate-01",
+  "generated_at": "2026-04-10T12:00:00Z",
+  "model": {
+    "base_url": "http://example.test/v1",
+    "model_name": "demo-model"
+  },
+  "summary": "前中段有拉力，但 38s-45s 存在明显下滑风险。",
+  "breakout_score": 74,
+  "emotion_curve": [
+    {
+      "time": 8.0,
+      "tension": 62,
+      "risk": 18
+    },
+    {
+      "time": 40.0,
+      "tension": 41,
+      "risk": 76
+    }
+  ],
+  "risk_windows": [
+    {
+      "start": 38.0,
+      "end": 45.0,
+      "kind": "情绪下滑",
+      "reason": "信息推进变慢，画面刺激减弱。",
+      "suggestion": "建议在 40s 前后插入更明确的反转镜头。",
+      "confidence": 82
+    }
+  ],
+  "opportunity_windows": [
+    {
+      "start": 26.0,
+      "end": 31.0,
+      "kind": "反转机会",
+      "reason": "冲突铺垫已经完成，适合提前揭示信息。",
+      "suggestion": "建议将关键信息揭示前置 2-3 秒。",
+      "confidence": 78
+    }
+  ],
+  "best_opportunity": {
+    "start": 38.0,
+    "end": 45.0,
+    "kind": "关键修正点",
+    "reason": "这是全片最明显的留存风险段。",
+    "suggestion": "建议在该区间前后插入高信息密度反转镜头。",
+    "confidence": 84
+  }
+}

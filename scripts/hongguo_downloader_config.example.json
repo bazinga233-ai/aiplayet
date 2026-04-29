@@ -1,0 +1,67 @@
+{
+  "adb_path": "adb",
+  "adb_serial": "emulator-5554",
+  "adb_connect": "127.0.0.1:16384",
+  "app_package": "com.phoenix.read",
+  "app_activity": "com.dragon.read.pages.splash.SplashActivity",
+  "shared_folder": "C:\\Path\\To\\MuMuSharedFolder",
+  "device_download_dir": "/sdcard/Android/data/com.phoenix.read/files/ttvideo_offline",
+  "output_dir": "output/hongguo_videos",
+  "state_path": "output/hongguo_download_state.json",
+  "run_output_path": "output/hongguo_download_run.json",
+  "debug_dir": "output/hongguo_download_debug",
+  "stage_dir": "output/hongguo_download_stage",
+  "top_n": 10,
+  "resume": true,
+  "skip_success": true,
+  "archive_mode": "copy",
+  "delete_existing_before_download": true,
+  "title_resource_ids": [],
+  "video_extensions": [
+    ".mp4",
+    ".m4v",
+    ".mov",
+    ".mkv",
+    ".avi",
+    ".ts"
+  ],
+  "timeouts": {
+    "app_launch": 30,
+    "page_wait": 20,
+    "download_start": 30,
+    "file_stable": 300,
+    "stable_window": 8,
+    "poll_interval": 2
+  },
+  "keywords": {
+    "rank": [
+      "排行榜",
+      "热榜",
+      "榜单",
+      "推荐榜",
+      "热播榜",
+      "红果推荐榜"
+    ],
+    "download": [
+      "下载到本地",
+      "下载",
+      "缓存",
+      "离线看",
+      "离线缓存"
+    ],
+    "confirm": [
+      "确定",
+      "确认",
+      "继续",
+      "立即下载",
+      "允许"
+    ]
+  },
+  "fallback_taps": {
+    "rank_tab": null,
+    "first_rank_item": null,
+    "download_button": null,
+    "back_button": null,
+    "rank_items": {}
+  }
+}

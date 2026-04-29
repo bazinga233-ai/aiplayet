@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# Build and release artifacts
+build/
+dist/
+novalai-release/
+novalai-release.zip
+*.exe
+*.dll
+*.pkg
+*.toc
+*.pyz
+*.zip
+
+# Runtime inputs and generated outputs
+videos/
+output/
+backend_state/
+tmp_uploads/
+tmp_script_uploads/
+.tmp_testfixtures/
+scripts/output/
+scripts/hongguo_downloader_config.json
+.superpowers/
+ps_delete_test_*.txt
+
+# Local logs and generated conversation exports
+conversation.html
+conversation_ansi.html
+2026-*.txt
+*.alog.hot
+
+# Local environment
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

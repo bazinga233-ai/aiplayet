@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "video_id": "video-01",
+  "video_name": "01",
+  "task_id": "task-highlight-legacy",
+  "parent_task_id": "task-generate-01",
+  "generated_at": "2026-04-09T12:00:00Z",
+  "model": {
+    "base_url": "http://example.test/v1",
+    "model_name": "demo-model"
+  },
+  "summary": "高光集中在中后段。",
+  "highlights": [
+    {
+      "start": 12.0,
+      "end": 18.0,
+      "label": "爆点",
+      "reason": "第一次反转出现。"
+    },
+    {
+      "start": 45.0,
+      "end": 53.0,
+      "label": "高潮",
+      "reason": "核心冲突爆发。"
+    }
+  ],
+  "best_climax": {
+    "start": 45.0,
+    "end": 53.0,
+    "title": "终极高潮",
+    "reason": "核心冲突在这里集中爆发。"
+  }
+}
